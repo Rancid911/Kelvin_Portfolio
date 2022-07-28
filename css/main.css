@@ -138,14 +138,17 @@ padding: 90px 0;
 
 .services-row {
   display: flex;
-column-gap: 30px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 60px;
 
 
 }
 
 
 .service-card {
-
+flex: 1 1 0;
+min-width: 315px;
 
 
 }
@@ -232,6 +235,8 @@ text-align: center;
 }
 
 .contacts-content {
+
+  margin: 0 auto 40px;
   font-size: 18px;
   margin-bottom: 40px;
 
