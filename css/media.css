@@ -108,21 +108,4 @@
     column-gap: 50px;
     margin-bottom: 20px;
   }
-
-  .header-nav {
-    margin-bottom: 50px;
-  }
-
-  .header-row {
-    flex-direction: column;
-    row-gap: 20px;
-  }
-
-  .header-content {
-    margin-top: 0;
-  }
-
-  .header-img {
-    text-align: center;
-  }
 }
