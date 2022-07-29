@@ -7,6 +7,13 @@
     <title>My Freelancer Portfolio</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
@@ -40,7 +47,7 @@
         </div>
         <!-- Header content -->
         <div class="header-row">
-          <div class="header-content">
+          <div class="header-content" data-aos="fade-right">
             <h1 class="header-heading">
               Kelvin Kramer <br />
               <span>Designer & Developer </span>
@@ -51,7 +58,7 @@
               York City. During my thirteen year tenure here.
             </p>
           </div>
-          <div class="header-img">
+          <div class="header-img" data-aos="fade-left">
             <picture>
               <source
                 media="(max-width:799px)"
@@ -67,7 +74,7 @@
     <section class="services">
       <div class="container">
         <div class="services-row">
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               class="service-card-img"
               src="./img/services/01.svg"
@@ -80,7 +87,7 @@
             </p>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               class="service-card-img"
               src="./img/services/02.svg"
@@ -93,7 +100,7 @@
             </p>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               class="service-card-img"
               src="./img/services/03.svg"
@@ -155,13 +162,13 @@
         <div class="contacts-title">
           <h2 class="title-1">Contacts</h2>
         </div>
-        <div class="contacts-content">
+        <div class="contacts-content" data-aos="fade-down">
           <p>Want to know more or just chat? <br />You are welcome!</p>
         </div>
-        <div class="contacts-button">
+        <div class="contacts-button" data-aos="fade-down">
           <a href="#!" class="btn">Send message</a>
         </div>
-        <div class="contacts-social">
+        <div class="contacts-social" data-aos="zoom-in">
           <a href="#1"
             ><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"
           /></a>
@@ -174,12 +181,18 @@
 
           <a href="#1"><img src="./img/socials/Dribble.svg" alt="Dribble" /></a>
         </div>
-        <div class="contacts-footer">
+        <div class="contacts-footer" data-aos="fade-down">
           <p>Like me on <br />LinkedIn, Instagram, Behance, Dribble</p>
         </div>
       </div>
     </footer>
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
